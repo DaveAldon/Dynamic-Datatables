@@ -13,7 +13,7 @@ function initDataTable() {
 			"sEmptyTable": "No Data found based on parameters"
 		},
 		"sDom": '<"top"lpif>t<"bottom"><"clear">',
-		"ajax": "data/objects.txt",
+		"ajax": "objects.txt",
 		"columns": buildDynamicDataTable($('#dataTable'), dynamicColumns),
 		// Conditional formatting for undelivered messages to look grayed out
 		rowCallback: function(row, data, index) {

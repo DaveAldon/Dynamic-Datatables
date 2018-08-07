@@ -18,7 +18,4 @@ var dynamicColumns = {
 }
 
 If it's blank, it defaults to the column's actual name. In the future, I'll be adding more complexity to this method
-and make it better and easier to throw in a datatable and change its columns on the fly, by simply plopping in
-the tag we know and love, without anything inside of it:
-
-<table id="dataTable" class="display compact wrap" cellspacing="0" width="100%"></table>
+and make it better and easier to throw in a datatable and change its columns on the fly.
